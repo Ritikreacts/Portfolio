@@ -9,9 +9,9 @@ export const personalData = {
   address: "Surat, Gujarat",
   github: "https://github.com/Ritikreacts",
   linkedIn: "https://www.linkedin.com/in/ritiksingh1/",
-  twitter: "https://twitter.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
+  // twitter: "https://twitter.com/said7388",
+  // facebook: "https://www.facebook.com/abusaid.riyaz/",
+  // stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
   leetcode: "https://leetcode.com/u/VkL00kaK8u/",
   // devUsername: "said7388",
   resume:
