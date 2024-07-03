@@ -6,7 +6,7 @@ import aws from "/public/svg/skills/aws.svg";
 import azure from "/public/svg/skills/azure.svg";
 import blender from "/public/svg/skills/blender.svg";
 import bootstrap from "/public/svg/skills/bootstrap.svg";
-import antdesign from "/public/svg/skills/ant-design.svg";
+import antdesign from "/public/svg/skills/antdesign.svg";
 import bulma from "/public/svg/skills/bulma.svg";
 import c from "/public/svg/skills/c.svg";
 import canva from "/public/svg/skills/canva.svg";
@@ -73,6 +73,10 @@ import vuetifyjs from "/public/svg/skills/vuetifyjs.svg";
 import webix from "/public/svg/skills/webix.svg";
 import wolframalpha from "/public/svg/skills/wolframalpha.svg";
 import wordpress from "/public/svg/skills/wordpress.svg";
+import node from "/public/svg/skills/node.svg";
+import express from "/public/svg/skills/express.svg";
+import redis from "/public/svg/skills/redis.svg";
+import socket from "/public/svg/skills/socket.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -81,7 +85,7 @@ export const skillsImage = (skill) => {
       return gcp;
     case "html":
       return html;
-    case "Ant Design":
+    case "ant design":
       return antdesign;
     case "photoshop":
       return photoshop;
@@ -101,10 +105,18 @@ export const skillsImage = (skill) => {
       return javascript;
     case "next js":
       return nextJS;
+    case "node js":
+      return node;
     case "nuxt js":
       return nuxtJS;
     case "react":
       return react;
+    case "express js":
+      return express;
+    case "redis":
+      return redis;
+    case "socket.io":
+      return socket;
     case "svelte":
       return svelte;
     case "typescript":
